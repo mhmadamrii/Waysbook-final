@@ -1,0 +1,134 @@
+.cartContainer{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    left: 15rem;
+    gap: 1rem;
+    height: 40rem;
+    overflow: hidden;
+    margin-top: 5rem;
+}
+
+.left{
+    flex: 60%
+}
+
+.left .list{
+    height: 23rem;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.left .list::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+
+.right{
+    flex: 40%;
+    position: relative;
+    top: 9.4rem
+}
+
+.right .total .subtotal{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+
+.right .total .qty{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+
+.right .price{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: green;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.btnBuy{
+    width: 10rem;
+    border-radius: 0.3rem;
+    background-color: #292929;
+    color: white;
+    font-weight: bold;
+    height: 2rem;
+    position: relative;
+    left: 14.5rem
+}
+
+.btnBuy:hover{
+    background-color: #5a5959;
+}
+
+.myCart{
+    display: flex;
+}
+
+.mc{
+    font-family: 'EB Garamond', serif;
+    font-size: 2rem;
+}
+
+.ryo{
+    font-family: 'Poppins', sans-serif;
+}
+
+.myCart .left{
+    width: 1rem;
+    overflow: hidden;
+    flex: 30%;
+}
+
+.myCart .left img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.myCart .right{
+    width: 1rem;
+    flex: 70%;
+    position: relative;
+    top: -1rem
+}
+
+.myCart .right .title{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+    font-family: 'EB Garamond', serif;
+    font-size: 0.7rem;
+}
+
+.myCart .right .title img{
+    width: 1.2rem;
+}
+
+.myCart .right .author{
+    color: grey;
+    font-size: 0.7rem;
+    position: relative;
+    top: -1rem;
+    left: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.myCart .right .price{
+    color: green;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 15rem;
+    top: 5.1rem
+}

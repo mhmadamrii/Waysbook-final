@@ -1,0 +1,132 @@
+.slideCard{
+    width: 25rem;
+    height: 20rem;
+    display: flex;
+}
+
+.left{
+    width: 15rem;
+    height: 20rem;
+    max-width: 15rem;
+    min-width: 15rem;
+    overflow: hidden;
+}
+
+.left img{
+    width: 15rem;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 15rem;
+    min-width: 15rem;
+    background-color: white;
+}
+
+.right .title{
+    font-size: 1.5rem;
+    position: relative;
+    width: 100%;
+    word-wrap: break-word;
+    top: -0.5rem;
+    font-family: 'EB Garamond', serif;
+}
+
+.right .author{
+    position: relative;
+    top: -0.5rem;
+    font-size: 0.9rem;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+
+.right .desc{
+    position: relative;
+    top: -0.5rem;
+    font-size: 0.7rem;
+    width: 100%;
+    word-wrap: break-word;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    height: 10rem;
+}
+
+.right .price{
+    font-size: 1rem;
+    color: green;
+    font-weight: bold;
+    position: relative;
+    top:0.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.right button{
+    position: relative;
+    top: -0.1rem;
+    padding: 0.5rem 1rem;
+    background-color: #393939;
+    color: white;
+    border: none;
+    border-radius: 0.1rem;
+}
+
+.right button:hover{
+    cursor: pointer;
+    background-color: #474242;
+}
+
+.book{
+    width: 13rem;
+    overflow: hidden;
+    height: 30rem;
+    margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.book:hover{
+    background-color: rgba(0,0,0,0.4);
+}
+
+.book .bookImg{
+    height: 20rem;
+    overflow: hidden;
+}
+
+.book .bookImg img{
+    width: 100%;
+    object-fit: cover;
+    height: 20rem;
+}
+
+.cardBody .title{
+    height: 5rem;
+    width: 10rem;
+    word-wrap: break-word;
+    overflow: hidden;
+    font-size: 0.7rem;
+}
+
+.cardBody .title h1{
+    line-height: 1.5rem;
+    font-family: 'EB Garamond', serif !important;
+    line-height: 2.3rem;
+}
+
+.cardBody .author{
+    color: #444444;
+    font-size: 1rem;
+    position: relative;
+    top: -0.01rem
+}
+
+.cardBody .price{
+    font-size: 1rem;
+    color: green;
+    font-weight: bold;
+    position: relative;
+    top: 0.01rem;
+}

@@ -1,0 +1,37 @@
+.transactionTable table{
+    border-collapse: collapse;
+    width: 70rem;
+    font-size: 1rem;
+    position: absolute;
+    left: 10rem;
+    top: 11rem
+}
+
+.transactionTable table th{
+    border-bottom: 1px solid #393939;
+    padding: 1rem 0rem;
+    color: red;
+}
+
+.transactionTable table td{
+    border-bottom: 1px solid #393939;
+    text-align: center;
+    padding: 1rem 0rem;
+}
+
+.transactionTable table tr:nth-of-type(odd){
+    background-color: white;
+}
+
+.transactionTable table tr:nth-of-type(even){
+    background-color: #e5e5e5;
+}
+
+.transactionTable table tr:last-of-type{
+    border-bottom: #e5e5e5;
+}
+
+.incoT{
+    position: absolute;
+    left: 10rem;
+}

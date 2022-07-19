@@ -1,0 +1,119 @@
+.logModal{
+    width: 100%;
+    height: 123rem;
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.logModal:hover{
+    cursor:default;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.login{
+    width: 25rem;
+    height: 20rem;
+    background-color: white;
+    position: absolute;
+    top: 13rem;
+    border-radius: 0.5rem;
+    left: 32rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 1.5rem;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: -1.5rem;
+}
+
+.login form input{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #ebebeb;
+    border: 1px solid grey;
+    border-radius: 0.3rem;
+}
+
+.logButton{
+    width: 100% !important;
+    height: 2.5rem !important;
+    background-color: #393939 !important;
+    position: relative !important;
+    border-radius: 0.3rem;
+    color: white;
+    font-weight: bold;
+}
+
+.logButton:hover{
+    background-color: #4b4949 !important;
+}
+
+.login p{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.register{
+    width: 25rem;
+    height: 23rem;
+    background-color: white;
+    position: absolute;
+    top: 13rem;
+    border-radius: 0.5rem;
+    left: 32rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 1.5rem;
+}
+
+.register form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: -1.5rem;
+}
+
+.register form input{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #ebebeb;
+    border: 1px solid grey;
+    border-radius: 0.3rem;
+}
+
+.register p{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+@keyframes fade {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.logAnimation{
+    animation: fade 0.2s;
+}
+
+.regAnimation{
+    animation: fade 0.2s;
+}
+
+.chBtn{
+    position: relative;
+    left: -0.45rem;
+    width: 2.5rem;
+    overflow: hidden;
+}

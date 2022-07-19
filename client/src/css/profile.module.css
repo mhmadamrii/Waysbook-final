@@ -1,0 +1,244 @@
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-family: 'EB Garamond', serif;
+    font-size: 2rem
+}
+
+.profileContainer{
+    width: 65rem;
+    height: 50rem;
+    position: absolute;
+    left: 12rem;
+    top: 8rem;
+}
+
+.profile{
+    width: 94%;
+    background-color: pink;
+    height: 20rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+}
+
+.profile .left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
+
+.profile .email{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile .email .val{
+    line-height: 0.2rem;
+}
+
+.profile .email img{
+    width: 3rem
+}
+
+.profile .email h3{
+    font-size: 1rem;
+}
+
+.profile .email p{
+    font-size: 0.9rem;
+    color: grey;
+}
+
+.profile .email{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile .email .val{
+    line-height: 0.2rem;
+}
+
+.profile .email img{
+    width: 2rem
+}
+
+.profile .email h3{
+    font-size: 1rem;
+}
+
+.profile .email p{
+    font-size: 0.9rem;
+    color: grey;
+}
+
+.profile .gender{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile .gender .val{
+    line-height: 0.2rem;
+}
+
+.profile .gender img{
+    width: 2rem
+}
+
+.profile .gender h3{
+    font-size: 1rem;
+}
+
+.profile .gender p{
+    font-size: 0.9rem;
+    color: grey;
+}
+
+.profile .phone{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile .phone .val{
+    line-height: 0.2rem;
+}
+
+.profile .phone img{
+    width: 2rem
+}
+
+.profile .phone h3{
+    font-size: 1rem;
+}
+
+.profile .phone p{
+    font-size: 0.9rem;
+    color: grey;
+}
+
+.profile .location{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile .location .val{
+    line-height: 0.2rem;
+}
+
+.profile .location img{
+    width: 2rem
+}
+
+.profile .location h3{
+    font-size: 1rem;
+}
+
+.profile .location p{
+    font-size: 0.9rem;
+    color: grey;
+}
+
+.profile .right{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: relative;
+    left: 25rem;
+    top: 1.3rem;
+}
+
+.profile .right img{
+    width: 15rem;
+    border-radius: 0.2rem;
+}
+
+.profile .right button{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 0.4rem 0rem;
+    border-radius: 0.2rem;
+}
+
+.book{
+    width: 13rem;
+    overflow: hidden;
+    height: 30.6rem;
+    margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.book:hover{
+    background-color: rgba(0,0,0,0.4);
+}
+
+.book .bookImg{
+    height: 20rem;
+    overflow: hidden;
+}
+
+.book .bookImg img{
+    width: 100%;
+    object-fit: cover;
+    height: 20rem;
+}
+
+.cardBody .title{
+    height: 6rem;
+    width: 10rem;
+    flex-wrap: wrap;
+    overflow: hidden;
+    font-size: 0.7rem;
+}
+
+.cardBody .title h1{
+    line-height: 1.5rem;
+    font-family: 'EB Garamond', serif !important;
+}
+
+.cardBody .author{
+    color: #444444;
+    font-size: 1rem;
+    position: relative;
+}
+
+.cardBody .price{
+    font-size: 1rem;
+    color: green;
+    font-weight: bold;
+    position: relative;
+    top: 1rem;
+}
+
+.bottom{
+    margin-top: 1.5rem;
+    height: 80rem;
+    overflow: hidden;
+    width: 70rem;
+}
+
+.bookCon{
+    width: 70rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5.3rem;
+    row-gap: 1rem;
+}
+
+.bookBtn{
+    width: 13rem;
+    height: 2rem;
+    background-color: #292929;
+    color: white;
+    position: relative;
+    top: 1rem;
+    border-radius: 0.2rem;
+}

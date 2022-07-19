@@ -1,0 +1,126 @@
+.bookDetailContainer{
+    height: 38rem;
+    width: 100%;
+}
+
+.top{
+    display: flex;
+    gap: 2rem;
+    position: absolute;
+    top: 10rem;
+    left: 20rem;
+}
+
+.top p{
+    color: grey;
+}
+
+.top .left{
+    width: 25rem;
+    border-radius: 0.7rem;
+    overflow: hidden;
+}
+
+.top .left img{
+    width: 100%;
+    height: 38rem;
+    object-fit: cover;
+}
+
+.right{
+    width: 25rem;
+    word-wrap: break-word;
+}
+
+.right .title{
+    font-family: 'EB Garamond', serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.right .author{
+    font-size: 1.5rem;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 4.1rem
+}
+
+.right .date{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.right .pages{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.right .ISBN{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.right .ISBN h2{
+    color: red
+}
+
+.right .price{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.right .price p{
+    color: green;
+    font-weight: bold;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: absolute;
+    top: 50rem;
+    left: 20rem;
+    width: 50rem;
+    height: 40rem;
+}
+
+.bottom h1{
+    font-size: 2rem;
+    font-family: 'EB Garamond', serif;
+}
+
+.bottom .desc{
+    position: relative;
+    top: -3rem;
+    font-size: 1rem;
+    text-align: justify
+}
+
+.bottom button{
+    width: 8rem;
+    height: 2.5rem;
+    background-color: #393939;
+    color: white;
+    font-weight: bold;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+    border: none;
+    position: relative;
+    bottom: 0;
+    left: 42rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bottom button:hover{
+    cursor: pointer;
+    background-color: #5c5c5c;
+}
+
+.bottom button img{
+    color: white;
+    width: 1rem;
+}

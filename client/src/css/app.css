@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Mina&family=Poppins:wght@300&family=Vollkorn:ital@1&display=swap');
+
+html{
+  scrollbar-width: none;
+}
+
+body{
+  font-size: 62.5% !important;
+  font-family: 'Mina', sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #393939;
+  background-color: #E5E5E5;
+}
+
+a{
+  text-decoration: none;
+  color: black
+}
+
+a:hover{
+  color: black
+}
+
+button{
+  border: none;
+  background-color: rgba(0,0,0,0);
+  font-family: 'Poppins', sans-serif;
+}
+
+button:hover{
+  background-color: rgba(0,0,0,0);
+  cursor: pointer;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.img-chat {
+  width: 40px !important;
+  height: 40px !important;
+  object-fit: cover !important;
+}
+
+.chat-me {
+  position: relative;
+  background: white;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 400px;
+}
+
+.chat-other {
+  position: relative;
+  background: white;
+  color: black;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 400px;
+}
+
+.img-contact {
+  width: 50px !important;
+  height: 50px !important;
+  object-fit: cover !important;
+}
+
+.img-chat {
+  width: 40px !important;
+  height: 40px !important;
+  object-fit: cover !important;
+}
+
+.text-contact {
+  font-size: 14px;
+}
+
+.text-contact-chat {
+  color: black;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+.contact img {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.contact ul {
+  list-style-type: none;
+}
+
+.contact:hover {
+  background-color: #7b7777;
+  transition: 0.5s;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact:active {
+  background-color: #3d3d3d;
+  transition: 0.3s;
+}
+
+.contact-active {
+  background-color: rgb(196,196,196);
+  border-radius: 5px;
+}
+
+.input-message {
+  width: 100%;
+  height: 90%;
+  background: rgb(196,196,196);
+  border: none;
+  color: black;
+  border-radius: '5px';
+}

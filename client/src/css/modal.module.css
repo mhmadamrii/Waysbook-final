@@ -1,0 +1,40 @@
+
+
+.bg{
+    width: 100%;
+    height: 123rem;
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: fade 1s;
+}
+
+.bg:hover{
+    cursor: default;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.notif{
+    width: 20rem;
+    padding: 1rem;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    position: absolute;
+    left: 34.5rem;
+    top: 20rem;
+    font-size: 1rem;
+    color: green;
+    border-radius: 0.3rem;
+    margin: auto;
+    animation: fade 1s;
+    text-align: center;
+}
+
+@keyframes fade {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
